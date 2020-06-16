@@ -1,0 +1,320 @@
+.btn.btn-primary {
+    background: #FA4C1A;
+    border-color: #FA4C1A;
+}
+
+.btn.btn-primary:hover {
+    background: #CF0050;
+    border-color: #CF0050;
+}
+
+.btn.btn-secondary {
+    background: #02818A;
+    border-color: #02818A;
+}
+
+.btn.btn-secondary:hover {
+    background: #FFF;
+    border-color: #02818A;
+    color: #02818A;
+}
+
+.quotation-block {
+  background-color: #fff !important;
+}
+
+/**.main-header.header-white.transparent .navbar .navbar-nav > li > a {
+    font-size: 1.2em;
+}**/
+
+.nav-li-active {
+    border-bottom: 1px solid #02CCE4;
+}
+
+.bg-gray-light .icon {
+  color: #0197ab !important;
+}
+
+.bg-gray-light:hover .icon {
+  color: #02CCE4 !important;
+}
+
+.main-header.header-white.transparent .navbar .navbar-nav > li > a:hover {
+    border-bottom: 1px solid #02CCE4;
+}
+
+.count-block {
+    /* background-image: url(../img/10xmate-productivity-engagement.jpg); */
+    background: #0197ab !important;
+}
+
+.count-block .container-fluid {
+    background: #0197ab !important;
+}
+
+/* #0197ab */
+
+.no-margin-padding {
+    margin: 0
+    padding: 0;
+    color: #fff;
+}
+
+.ico-box {
+    height: 250px;
+}
+
+.rewards-banner {
+    background-image: url(../img/rewards-list-banner-1.png);
+}
+
+.product-banner {
+  margin-top: 5vh;
+  margin-bottom: 0;
+}
+
+.bigger-img {
+  margin-top: 21vh;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.contacts-banner {
+    background-image: url(../img/10xmate-contacts-main-banner.jpg);
+    background-position: center right;
+}
+
+.impact-banner {
+    background-image: url(../img/10xmate-impact-main-banner.jpg);
+    background-position: top;
+}
+
+.ai-banner {
+    background-image: url(../img/10xmate-ai.jpg);
+    background-position: top;
+}
+
+.service-plans-banner {
+    background-image: url(../img/10xmate-service-plans.jpg);
+    background-position: bottom;
+}
+
+.about-us-banner {
+    background-image: url(../img/10xmate-about-us.jpg);
+}
+
+.calculator-banner {
+    background-image: url(../img/numbers.jpg);
+}
+
+.accent-in-p {
+    font-size: 1.2em;
+}
+
+.custom-p-bigger {
+    font-size: 1.2em;
+}
+
+.navbar-brand img {
+    max-width: 200px;
+}
+
+@media(max-width: 1000px) {
+  .navbar-brand img {
+    height: 60px;
+    margin-top: -15px;
+  }
+}
+
+.dark-logo-img {
+    margin-top: 30px;
+}
+
+.padding-50 {
+    height: 50px;
+}
+
+.custom-inactive-button {
+    text-align: center;
+    color: #02CCE4 !important;
+    font-size: 1.3em !important;
+}
+
+.red-label-star {
+    color: #CF0050;
+}
+
+.calculator-wrapper {
+    font-size: 1.2em;
+}
+
+#result-bar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input {
+    font-size: 1.2em !important;
+}
+
+#training_cost, #training_cost_saved {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #000;
+}
+
+#prop-bar {
+    font-size: 1.4em;
+    color: #000;
+}
+
+.prop-bar-img {
+    width: 140px;
+    margin-bottom: 5px;
+}
+
+.calculator-info-data {
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+#explain-bar {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.error {
+    color: #CF0050;
+}
+
+.result-desc {
+    font-size: 1.2em;
+}
+
+.explain-desc {
+    font-size: 1.2em;
+}
+
+#calculator_form {
+    margin-bottom: 50px;
+}
+
+.my-video-frame {
+  width: 100%;
+  height: 65%;
+  vertical-align: middle;
+}
+
+.dropped-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.under-video-btn {
+  text-align: center;
+}
+
+.footer, .footer-v1, .footer-main {
+  background: #efefef !important;
+}
+
+.footer-v1 .content-block {
+  /* padding: 0 !important; */
+  padding: 3rem;
+}
+
+.footer-logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-rows {
+  margin-bottom: 3vh !important;
+}
+
+.footer-nav ul li a:hover{
+  color: #000;
+}
+
+.btn-green {
+  background: #0197ab !important;
+  border-color: #0197ab !important;
+}
+
+.btn-green:hover {
+  background: #fff !important;
+  border-color: #0197ab !important;
+  color: #0197ab !important;
+}
+
+.left-float-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 500px;
+  background-size: contain;
+}
+
+.ai-float-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  max-height: 800px;
+  background-size: contain;
+}
+
+.centered-page-main-img {
+  height: 30%;
+  width: 100%;
+}
+
+.img-about {
+  height: 550px;
+  background-size: cover;
+}
+
+.percentage-banner{
+  color: #c1c5cd !important;
+}
+
+.count-block .col-wrap:hover .percentage-banner {
+  color: #fff !important;
+}
+
+.footer-link a:hover {
+  color: #000 !important;
+}
+
+.eupopup-button_1, .eupopup-button_2 {
+  color: #02CCE4 !important;
+}
+
+.eupopup-button_1:hover, .eupopup-button_2:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.privacy-page-content-block .container {
+  margin-bottom: 5vh;
+}
+
+.privacy-page-content-block .container .description ol {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.types-cookies li {
+  margin-bottom: 3vh;
+}
+
+.privacy-page-content-block .container .description ul h4 {
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+.home-page-banner {
+  margin-top: 14vh;
+}

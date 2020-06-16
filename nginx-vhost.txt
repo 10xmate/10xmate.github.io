@@ -1,0 +1,33 @@
+server {
+     listen 80;
+     listen [::]:80;
+
+     root /var/www/10xmate.com;
+     index index.html;
+     server_name 10xmate.com www.10xmate.com 161.35.30.143;
+
+     error_page 404 /custom_404.html;
+
+     location = /custom_404.html {
+              root /var/www/10xmate.com;
+              internal;
+     }
+
+     location ~* \.(?:jpg|jpeg|gif|png|ico|cur|gz|svg|mp4|ogg|ogv|webm|htc)$ {
+            access_log off;
+            add_header Cache-Control "max-age=2592000";
+     }
+
+     location ~* \.(?:css|js)$ {
+           access_log off;
+           add_header Cache-Control "max-age=31536000";
+     }
+
+     location / {
+          if ($request_uri ~ ^/(.*)\.html$) {
+              return 302 /$1;
+          }
+
+          try_files $uri $uri.html $uri/ =404;
+     }
+}
