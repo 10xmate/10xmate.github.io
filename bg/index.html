@@ -116,7 +116,7 @@
                 <!-- visual/banner of the page -->
                 <div class="banner banner-home home-page-banner">
                     <div id="home-page-video-div" class="fullscreen-container">
-                      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/429962198?autoplay=1&loop=1" style="position:absolute;top:0;left:0;width:100%;height:60%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                      <div id="iframe-wrapper"><iframe class="embeded-vimeo-iframe" src="https://player.vimeo.com/video/429962198?autoplay=1&loop=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
                 </div>
                 <!--/visual/banner of the page -->
@@ -125,7 +125,7 @@
                     <section class="content-block">
                         <div class="container">
                             <div class="block-heading bottom-space">
-                                <h2 class="block-main-heading">Компаниите могат да бъдат повече от работно място.</h2>
+                                <h2 class="block-main-heading text-center">Компаниите могат да бъдат повече от работно място.</h2>
                             </div>
                             <div class="row">
                               <div class="col-md-12">
@@ -138,7 +138,7 @@
                         </div>
                     <!-- Impact moved section -->
                           <div class="container" style="margin-top: 7vh;">
-                              <div class="heading bottom-space">
+                              <div class="heading bottom-space text-center">
                                   <h2>Създадохме 10xMate™ </h2>
                               </div>
                               <div class="description">
@@ -402,10 +402,10 @@
                     </section>
                     <section class="content-block">
                         <div class="container">
-                            <div class="heading bottom-space">
+                            <div class="heading bottom-space text-center">
                                 <h2>Може би забелязахте, че зад тези цифри има огромен бизнес потенциал?</h2>
                             </div>
-                            <div class="description">
+                            <div class="description text-center">
                                 <p class="block-top-heading">Технологиите са тези, които могат да превърнат възможностите в икономически растеж.</p>
                             </div>
                         </div>
@@ -486,9 +486,15 @@
     <script src="../js/jquery.main.js"></script>
     <script>
       var visibleScreen = $(window.top).height();
-      // var reachOutBtnHeight = (visibleScreen * 18)/100;
-      // console.log(visibleScreen);
-      $("#home-page-video-div").height(visibleScreen);
+      var pageWidth = $(window.top).width();
+
+      var percentOfScreenToWrap = 60;
+
+      if (pageWidth < 600) {
+        percentOfScreenToWrap = 30;
+      }
+
+      $("#iframe-wrapper").height((visibleScreen * percentOfScreenToWrap)/100);
     </script>
     <!-- EU cookies & google analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60444402-4"></script>

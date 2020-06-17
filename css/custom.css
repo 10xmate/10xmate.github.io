@@ -219,6 +219,10 @@ input {
   background: #efefef !important;
 }
 
+.content-block {
+  padding: 5rem;
+}
+
 .footer-v1 .content-block {
   /* padding: 0 !important; */
   padding: 3rem;
@@ -318,3 +322,27 @@ input {
 .home-page-banner {
   margin-top: 14vh;
 }
+
+#iframe-wrapper {
+  position: relative;
+}
+
+.embeded-vimeo-iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+/* @media screen and (max-width: 999px) {
+  .embeded-vimeo-iframe {
+     height:100%;
+   }
+}
+
+@media screen and (min-width: 1000px) {
+  .embeded-vimeo-iframe {
+     height:60%;
+   }
+} */
