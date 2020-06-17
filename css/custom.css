@@ -73,6 +73,15 @@
   margin-bottom: 0;
 }
 
+.our-product-banner{
+  margin-top: 6vh;
+  margin-bottom: 0;
+}
+
+.our-product-page-wrapper .content-block {
+  padding: 0 !important;
+}
+
 .bigger-img {
   margin-top: 21vh;
 }
