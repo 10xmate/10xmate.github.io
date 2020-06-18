@@ -86,7 +86,7 @@
                 $('#error_message').html('');
 
                 $('#result-bar').show();
-                $('#explain-bar').delay(5000).show('slow');
+                $('#explain-bar').delay(1000).show('slow');
 
                 var val_training_cost = num_emp_who_quit_per_year.val() * onboarding_period.val() * (yearly_pay.val() / 12);
 

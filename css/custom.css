@@ -344,14 +344,6 @@ input {
   height:100%;
 }
 
-/* @media screen and (max-width: 999px) {
-  .embeded-vimeo-iframe {
-     height:100%;
-   }
+.player .vp-controls .ghost-timecode .box {
+  background-color: #02CCE4 !important;
 }
-
-@media screen and (min-width: 1000px) {
-  .embeded-vimeo-iframe {
-     height:60%;
-   }
-} */
