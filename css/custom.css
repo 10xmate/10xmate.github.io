@@ -349,3 +349,11 @@ input {
   /* make sure overflow is hidden*/
   overflow: hidden;
 }
+
+.start-banner {
+  margin-top: 10vh;
+}
+
+.info-slot {
+  margin-bottom: 0;
+}
