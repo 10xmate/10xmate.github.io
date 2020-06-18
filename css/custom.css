@@ -334,6 +334,7 @@ input {
 
 #iframe-wrapper {
   position: relative;
+  top: 5vh;
 }
 
 .embeded-vimeo-iframe {
@@ -344,6 +345,7 @@ input {
   height:100%;
 }
 
-.player .vp-controls .ghost-timecode .box {
-  background-color: #02CCE4 !important;
+.video-js {
+  /* make sure overflow is hidden*/
+  overflow: hidden;
 }
