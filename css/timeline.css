@@ -67,10 +67,12 @@ Patterns - reusable parts of our design
   display: block;
   width: 75%;
   transition: transform .4s;
+  cursor: zoom-in;
 }
 
 .cd-timeline__date img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
+  cursor: zoom-in;
 }
 
 .cd-timeline__date ul {
@@ -88,8 +90,10 @@ Patterns - reusable parts of our design
 .slack-btn-add {
   transition: box-shadow .3s;
   border-radius:10px;
-  border: 1px solid #ccc;
-  background: #fff;
+}
+
+.slack-btn-add img:hover {
+  cursor: pointer !important;
 }
 
 .slack-btn-add:hover {
@@ -130,8 +134,8 @@ Patterns - reusable parts of our design
 
 .cd-timeline__img img {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 33px;
+  height: 30px;
   position: relative;
   left: 50%;
   top: 50%;
