@@ -55,13 +55,28 @@ Patterns - reusable parts of our design
     left: 50%;
     margin-left: -2px;
   }
+
+  .cd-timeline__block .small-padding-el {
+    padding-bottom: 10vh;
+  }
+
+  .cd-timeline__block .long-padding-el {
+    padding-bottom: 22vh;
+  }
 }
 
 .cd-timeline__block {
   position: relative;
   margin: 2em 0;
-  padding-bottom: 20vh;
 }
+
+/* .cd-timeline__block .small-padding-el {
+  padding-bottom: 10vh;
+}
+
+.cd-timeline__block .long-padding-el {
+  padding-bottom: 20vh;
+} */
 
 .cd-timeline__date p img {
   display: block;
