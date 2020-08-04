@@ -78,7 +78,7 @@ Patterns - reusable parts of our design
   padding-bottom: 20vh;
 } */
 
-.cd-timeline__date p img {
+.seventy__five img {
   display: block;
   width: 75%;
   transition: transform .4s;
@@ -87,6 +87,11 @@ Patterns - reusable parts of our design
 
 .cd-timeline__date img:hover {
   transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+.seventy__five img:hover {
+  transform: scale(1.5);
   cursor: zoom-in;
 }
 
