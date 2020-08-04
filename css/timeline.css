@@ -95,6 +95,10 @@ Patterns - reusable parts of our design
   cursor: zoom-in;
 }
 
+.zoom_x_3 img:hover {
+  transform: scale(3);
+}
+
 .cd-timeline__date ul {
   list-style: none;
 }
