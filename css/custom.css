@@ -345,6 +345,32 @@ input {
   height:100%;
 }
 
+#iframe-wrapper-op {
+  height: 60vh;
+  margin-bottom: 5vh;
+}
+
+@media only screen and (max-width: 900px) {
+  #iframe-wrapper-op {
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #iframe-wrapper-op {
+    height: 30vh;
+  }
+}
+
+#iframe-wrapper-tl {
+  height: 40vh;
+}
+
+.embeded-vimeo-iframe-op {
+  width:100%;
+  height:100%;
+}
+
 .video-js {
   /* make sure overflow is hidden*/
   overflow: hidden;
