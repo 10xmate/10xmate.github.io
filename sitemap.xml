@@ -33,11 +33,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://10xmate.com/10xmate4slack/</loc>
-  <lastmod>2020-07-28T08:48:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://10xmate.com/about-us</loc>
   <lastmod>2020-07-28T08:48:53+00:00</lastmod>
   <priority>0.80</priority>
@@ -56,16 +51,6 @@
   <loc>https://10xmate.com/terms-of-use</loc>
   <lastmod>2020-07-28T08:48:53+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://10xmate.com/10xmate4slack/terms-of-use</loc>
-  <lastmod>2020-07-28T08:48:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://10xmate.com/10xmate4slack/privacy-policy</loc>
-  <lastmod>2020-07-28T08:48:53+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 
 
