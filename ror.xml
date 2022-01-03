@@ -61,14 +61,6 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://10xmate.com/about-us</link>
-     <title>10xmate recognition and rewards | About Us</title>
-     <description>10xMate. About Us. 10xMate team.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>https://10xmate.com/contacts</link>
      <title>10xmate recognition and rewards | Contacts</title>
      <description>10xMate is a recognition and rewards platform, that boosts employees engagement and productivity, increases employee retention and drives business results. Thanks. Make someone's day.</description>
@@ -136,14 +128,6 @@
      <link>https://10xmate.com/bg/service-plans</link>
      <title>10xmate recognition and rewards | Планове</title>
      <description>10xMate. Абонаментни планове.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://10xmate.com/bg/about-us</link>
-     <title>10xmate recognition and rewards | За нас</title>
-     <description>10xMate. Нашият екип.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
